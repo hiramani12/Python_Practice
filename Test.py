@@ -1,6 +1,4 @@
-print ("Aalu khau")
-print("Nakhane")
-print("Testo vaye mari jau")
+
 print("La difference herum aba")
 print("End Branch 1")
 print("Back to Branch 1")
