@@ -16,3 +16,10 @@ from mpl_toolkits import mplot3d
 import matplotlib.colors as colors
 import matplotlib.cm as cmx
 
+# Path where the photo to read is stored
+
+path = '/Users/hiramani/Desktop/Python Practice/HeHe/Lawson re-fuel, sheen on Pine/'
+
+files_image = [f for f in glob.glob(path + "*.JPG", recursive=True)] # Returns the list with path of the images with "JPG" extension based
+file_names_image = [f.split('/')[-1] for f in files_image]  # Exact file names from the given path
+
